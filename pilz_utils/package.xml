@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>pilz_utils</name>
+  <version>0.7.2</version>
+  <description>The pilz_utils package contains utilities used by Pilz packages.</description>
+
+  <maintainer email="c.doehn@pilz.de">Christian Doehn</maintainer>
+  <maintainer email="i.martini@pilz.de">Immanuel Martini</maintainer>
+  <maintainer email="r.feistenauer@pilz.de">Richard Feistenauer</maintainer>
+
+  <license>Apache-2.0</license>
+
+  <url type="website">https://wiki.ros.org/pilz_utils</url>
+  <url type="bugtracker">https://github.com/PilzDE/pilz_common/issues</url>
+  <url type="repository">https://github.com/PilzDE/pilz_common</url>
+
+  <!-- Build tool dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Build dependencies -->
+  <build_depend>rclcpp</build_depend>
+  <build_depend>ament_lint_auto</build_depend>
+  <build_depend>ament_lint_common</build_depend>
+  <build_depend>ament_cmake_clang_tidy</build_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
