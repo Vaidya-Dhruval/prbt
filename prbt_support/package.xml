@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>prbt_support</name>
+  <version>0.6.0</version>
+  <description>Mechanical, kinematic, and visual description of the Pilz lightweight arm PRBT.</description>
+
+  <maintainer email="i.martini@pilz.de">Immanuel Martini</maintainer>
+  <license>Apache-2.0</license>
+
+  <url type="website">https://wiki.ros.org/prbt_support</url>
+  <url type="bugtracker">https://github.com/PilzDE/pilz_robots/issues</url>
+  <url type="repository">https://github.com/PilzDE/pilz_robots</url>
+
+  <!-- Build tool dependencies -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Dependencies -->
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>joint_state_controller</depend>
+  <depend>robot_state_publisher</depend>
+  <depend>xacro</depend>
+  <depend>controller_manager</depend>
+  <depend>pilz_control</depend>
+  <depend>prbt_hardware_support</depend>
+  <depend>canopen_chain_node</depend>
+
+  <!-- Optional dependencies -->
+  <exec_depend>topic_tools</exec_depend>
+  <exec_depend>pilz_status_indicator_rqt</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
